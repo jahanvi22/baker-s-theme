@@ -1,0 +1,84 @@
+
+/*   
+Theme Name: Baker's Theme
+Description: This website is about all the Bakery items
+Author: Jahanvi Parmar
+Version: 1.0
+.
+General comments/License Statement if any.
+.
+*/
+
+body
+{
+text-align: left;
+}
+#ttr_sidebar
+{
+border-left: 1px solid black;
+}
+#ttr_footer
+{
+width: 100%;
+border-top: 1px #a2a2a2 solid;
+text-align: center;
+.col { 
+  background: #0a5173;
+  float: left;
+  padding: 30px 0 0 35px;
+  width: 310px;
+}
+ 
+.col:first-child {
+  padding: 30px 0 0 0;
+}
+ 
+h2 { 
+  background: url(extra-title-bg.jpg);
+  color: #FFF;
+  float: left; 
+  font: bold 18px Arial, Helvetica, sans-serif; 
+  font-variant: small-caps; 
+  margin: 0 0 20px 0; 
+  padding: 9px 0 0 19px; 
+  height: 33px; 
+  width: 291px;
+}
+ 
+ul { 
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+}
+ 
+li { 
+  background: url(extra-links-bg.jpg); 
+  border-bottom: 1px dotted #25c3ba; 
+  border-top: 1px dotted #25c3ba; 
+  float: left; 
+  height: 35px; 
+  margin: 3px 0;
+  padding: 0; 
+  width: 310px; 
+}
+ 
+li a { 
+  color: #FFF;
+  display: block;
+  float: left; 
+  font: normal 12px Verdana, Geneva, sans-serif; 
+  padding: 10px 0 0 19px; 
+  text-decoration: none;
+}
+ 
+li:hover { 
+  background: #5fa4c5;
+}
+
+}
+.title
+{
+font-size: 11pt;
+font-family: verdana;
+font-weight: bold;
+}
